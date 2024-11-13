@@ -1,0 +1,274 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ 
+ }
+ /* this is my header section styles  */
+ header{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     width: 90%;
+     padding: 10px;
+     position: absolute;
+     top: 4%;
+ }
+ header div ul{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 5%;
+     list-style:none ;
+ }
+ 
+ header div ul li a{
+     text-decoration: none;
+     color: #fff;
+     font: 20px;
+     font-weight: 500;
+ }
+ /* my header section styles ends here  */
+ 
+ /* this is my hero section styles  */
+ #hero{
+     height: 100vh;
+     width: 100%;
+     background-image: url(../images/header.jpg);
+     background-position: center center;
+     background-size: cover;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+     color: #fff;
+ 
+ }
+ #hero h1{
+     font-size: 45px;
+ }
+ #hero p{
+     color: black;
+ }
+ /* my hero section ends here  */
+ 
+ /* this is my about section styles  */
+ #about{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ 
+ }
+ #about .about-inner{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding: 50px;
+     gap: 3%;
+     text-align: center;
+     font-size: 16px;
+     font: weight 100px;
+ }  
+ #about .about-inner div{
+     color: grey;
+     display: grid;
+     margin-bottom: 3%;
+     gap: 50%;
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ 
+ } 
+ #about .about-inner p{
+     font-size: small;
+ } 
+ /* my about section ends here  */
+ /* /* this is my services section styles */
+ #services{
+     display: flex;
+     justify-content: center;
+     align-items:center;
+     padding: 30px;
+     text-align: center;
+     gap: 3%;
+     background-color: whitesmoke;
+     
+ }
+ #services .services-inner .servicescards {
+     margin:0 auto;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     text-align: center; 
+     display: grid;
+     gap: 20%;
+     padding-top: 3%;
+     color: grey;
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ 
+     
+ }
+ #services .services-inner .servicescards h3{
+     font-size: xx-large;
+     font-weight: 800;
+     margin-bottom: 4%;
+ 
+ }
+ #services .services-inner .servicescards p{
+     font-size: large;
+ }
+ #services .services-inner button{
+    width: max-content;
+     background: #ffa703;
+     font-size: large;
+     border: none;
+     padding: 1% 3%;
+     font-weight: 800;
+     color: #fff;
+     margin-top: 5%;
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ 
+     
+ }
+ 
+ /* my services section ends here  */
+ /* this is my testimonial section styles  */
+ #testimonial{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+     margin: 5%;
+     
+ }
+ #testimonial .testimonial-inner{
+     text-align: center;
+ }
+ #testimonial .testimonial-inner .testimonial-cards{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     text-align: left;
+     padding: 8%;
+    margin-top: 3%;
+    column-gap: 5%;
+    background-color: whitesmoke;    
+     
+ }
+ #testimonial .testimonial-inner .testimonial-cards div{
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     color: grey;
+     display: grid;
+     gap: 20%;
+ }
+ #testimonial .testimonial-inner h3{
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     color: grey;
+     font-size: x-large;
+     font-weight: 500;
+ }
+ 
+ /* my testimonial section ends here  */
+ /* this is my newsletter section styles  */
+ #newsletter{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding: 1%;
+      background-color: orange;
+ 
+ }
+ #newsletter div {
+     font-size: larger;
+     padding: 3%;
+     color: #ffffff;
+     padding: 3%;
+ }
+ #newsletter div form{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding: 1% 1%;
+     text-align: center;
+ }
+ #newsletter div form .button{
+     /* margin:0 auto; */
+     width: 100px;
+     background: #2c1d05;
+     border: none;
+     padding: 12% 10% 10% 10%;
+     font-weight: 600;
+      color: #fff;
+ border-radius: 50px;
+     
+ }
+ #newsletter div form .InputName{
+     /* margin: 2auto;  */
+     width: 40px;
+     border: none;
+     padding: 2% 10% 2% 0% ;
+     padding-left: 5%;
+     font-weight: 400;
+     border-top-left-radius: 50px;
+     border-bottom-left-radius: 50px ;
+ }
+ #newsletter div form .InputEmail{
+     margin: 5auto;
+     width: 40px;
+     border: none;
+     padding: 2% 20% 2% 0%;
+     font-weight: 400;
+     border-top-right-radius: 50px;
+     border-bottom-right-radius: 50px;
+ }
+ /* my newsletter section ends here  */
+ /* this is my footer section styles  */
+ footer{
+     background-color: gray;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding: 10px;
+ 
+ }
+ footer .footer-inner div{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+ footer div ul{
+     display: flex;
+     justify-content: center; 
+     align-items: center ;
+     list-style: none; 
+     gap: 5%;   
+     list-style: none;   
+     padding: 5%; 
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
+     font-weight: 800;    
+ }  
+ footer  ul li a{
+     display: flex;
+     align-items: center;
+     display: grid;
+     padding: 15%;
+     text-decoration: none;
+     color:RGB(218, 217, 217);
+     gap: 5%;
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     
+ }
+ footer span{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     list-style: none;
+     padding-block: 10%;
+     color: whitesmoke;
+     font-weight: 400;
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ 
+ }
+ footer span div{
+     color: rgb(175, 174, 174);
+ }
+ /* my footer section ends here  */
+  
